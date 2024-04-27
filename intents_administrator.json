@@ -1,0 +1,556 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Buenos Dias",
+                "Buen dia",
+                "Buenas noches",
+                "Buenas tardes"
+            ],
+            "responses": [
+                "Buenos días, soy parte del área de atención al alumno de la UPC. ¿En qué puedo ayudarte con respecto al curso?",
+                "Saludos, estudiante, como parte del área de atención al alumno de la UPC estaremos encantados de ayudarte si tienes alguna pregunta sobre la evaluación o la malla curricular",
+                "Hola, soy parte del área de atención al alumno de la UPC. ¿necesitas asistencia respecto a las herramientas del aula virtual o el contenido de la asignatura?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adios",
+                "Hasta luego"
+            ],
+            "responses": [
+                "Hasta luego, estudiante. Si tienes más preguntas en el futuro, no dudes en contactarme.",
+                "Que tengas un buen día. Si necesitas ayuda con alguna otra cosa, estaré disponible.",
+                "Adiós, que tengas éxito en tus estudios. No dudes en buscarme si necesitas ayuda adicional."
+            ]
+        },
+        {
+            "tag": "FechasImportantes",
+            "patterns": [
+              "Cuales son las fechas que deberia conocer?",
+              "Fechas mas importantes del ciclo academico",
+              "Fechas más importantes del ciclo academico?"
+            ],
+            "responses": [
+              "Estimado alumno las fechas más importantes varian dependiendo de cada ciclo academicos. En el ciclo 2024 1, por ejemplo las fechas más importantes para los estudiantes fueron El inicio de clases el 18 de Marzo, La semana de examenes parciales del 06 al 11 Mayo, el 29 de junio ultimo dia de clases y la semana de examenes finales del 01 al 06 de Julio."
+            ]
+          },
+          {
+            "tag": "FechaInicioClases",
+            "patterns": [
+              "Cuando es el inicio de clases",
+              "Cual es la fecha del inicio de clases"
+            ],
+            "responses": [
+              "El inicio de clases varia dependediendo del ciclo academico. En el ciclo 2024-1, por ejemplo el inicio de clases es el 18 de Marzo"
+            ]
+          },
+          {
+            "tag": "FechaExamenesParciales",
+            "patterns": [
+              "Cuando empiezan los examenes parciales",
+              "Cuando son los examenes parciales",
+              "Hay semana de parciales?"
+            ],
+            "responses": [
+              "El inicio de la semana de parciales varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo la semana de examenes parciales es del 06 al 11 Mayo"
+            ]
+          },
+          {
+            "tag": "FechaUltimoDiaClases",
+            "patterns": [
+              "Cuando terminan las clases",
+              "Cuando es el ultimo dia de clases",
+              "Fin de clases"
+            ],
+            "responses": [
+              "El termino de las clases varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo el 29 de junio es ultimo dia de clases. Recuerda que la siguiente semana es la semana de examenes finales."
+            ]
+          },
+          {
+            "tag": "FechaExamenesFinales",
+            "patterns": [
+              "Cuando empiezan los examenes finales",
+              "Cuando son los examenes finales",
+              "Hay semana de finales?"
+            ],
+            "responses": [
+              "El inicio de la semana de finales varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo la semana de examenes parciales es del 01 al 06 de Julio."
+            ]
+          },
+          {
+            "tag": "InformacionEstudiante",
+            "patterns": [
+              "Cuales mi información importante?",
+              "Mi informacion importante"
+            ],
+            "responses": [
+              "Tu información más importante es tu codigo de usuario UPC y la contraseña de tu cuenta. Si eres nuevo ingresante esta información fue enviada 48 horas después de tu incorporación al correo personal que indicaste en la Oficina de Admisión."
+            ]
+          },
+          {
+            "tag": "AsistirPrimerDiaClases",
+            "patterns": [
+              "Cómo asisto a mi primer dia de clases?",
+              "Como asisto a mi primer dia de clases?"
+            ],
+            "responses": [
+              "Estimado alumno, para ingresar a tu primer dia de clases debes tener en cuenta tu modalidad de estudios. En el caso de un curso a distancia, la clase dictará por el aula virtual. En el caso de un curso presencial, deberás acercarte al campus portando tu documento de identidad."
+            ]
+          },
+          {
+            "tag": "PlanEstudiosGeneral",
+            "patterns": [
+              "Cual es mi plan de estudios?",
+              "Que es el plan de estudios?"
+            ],
+            "responses": [
+              "El plan de estudios es la planificación de tu formación como profesional en la UPC. Este se mide por créditos siendo 1 credito la unidad de medida de los cursos que vas a estudiar. En este plan de estudios, ademas, los cursos pueden ser oblogatorios o electivos."
+            ]
+          },
+          {
+            "tag": "ComoGraduarse",
+            "patterns": [
+              "Que necesito para graduarme",
+              "Como termino mis estudios",
+              "Como me graduo de la upc"
+            ],
+            "responses": [
+              "Para graduarte necesitas cumplir con todos tus cursos obligatorios y electivos, obtener tus créditos extra académicos y realizar tus prácticas, y cumplir con el nivel de ingles requerido."
+            ]
+          },
+          {
+            "tag": "IngresarUPC",
+            "patterns": [
+              "Como ingreso a la UPC",
+              "Como entro en el campus de UPC?"
+            ],
+            "responses": [
+              "Estimado alumno, deberás acercarte al campus portando tu documento de identidad."
+            ]
+          },
+        {
+            "tag": "ConceptocorreoUPC",
+            "patterns": [
+                "Oye, ¿qué es ese correo UPC que mencionan?",
+                "¡Hola! Me dijeron algo del correo UPC, ¿me puedes explicar?",
+                "Disculpa mi ignorancia, pero ¿qué es ese correo UPC?"
+            ],
+            "responses": [
+                "El correo UPC es la dirección de correo electrónico oficial de la universidad. Los estudiantes tienen una dirección con el formato 'u[código]@upc.edu.pe'. Es el medio formal para comunicarse con profesores y otros miembros de la comunidad universitaria."
+            ]
+        },
+        {
+            "tag": "FuncionCorreoUPC",
+            "patterns": [
+                "Para que uso el correo upc?",
+                "Para que se usa el correo upc?",
+                "¿Para qué se usa el correo UPC?",
+                "Oye, ¿me explicas para qué sirve el correo UPC?",
+                "No tengo idea, ¿cuál es el rol del correo UPC?",
+                "Disculpa la pregunta, ¿para qué es ese correo UPC?",
+                "Para que es el correo UPC?"
+            ],
+            "responses": [
+                "El correo UPC es el medio oficial de comunicación en la universidad. Los estudiantes lo utilizan para contactarse con profesores, asesores y otros miembros de la comunidad universitaria. Es fundamental para temas académicos, consultas y comunicaciones formales.",
+                "El correo UPC es una herramienta importante para la comunicación en la universidad. Los estudiantes lo usan para contactar a profesores, hacer consultas académicas y tratar temas relacionados con sus estudios."
+            ]
+        },
+        {
+            "tag": "ComoUsarCorreoUPC",
+            "patterns": [
+                "¿Me puedes decir cómo uso el correo UPC?",
+                "Oye, ¿cómo funciona ese correo UPC?",
+                "¡Necesito ayuda! No tengo idea de cómo usar el correo UPC.",
+                "¿Alguna idea de cómo se usa el correo UPC?",
+                "Hola, ¿puedes explicarme cómo se maneja el correo UPC?",
+                "Como se usa el correo UPC?",
+                "Que es blackboard?"
+            ],
+            "responses": [
+                "El correo UPC utiliza la plataforma de Microsoft, similar a Outlook. Puedes acceder a él desde cualquier navegador web o usando la aplicación de Outlook. Para enviar un correo, simplemente abre tu bandeja de entrada, haz clic en 'Nuevo' y completa los campos de destinatario, asunto y mensaje. Luego, pulsa 'Enviar'.",
+                "Para utilizar el correo UPC, accede a la plataforma de Microsoft Outlook. Desde allí, podrás redactar y enviar correos electrónicos a tus profesores, compañeros o cualquier miembro de la comunidad universitaria.",
+				"El blackboard es el aula virtual que emplea la universidad. Es la plataforma mediante la cual puedes acceder a información como tus cursos, sílabo, y calificaciones actuales."
+            ]
+        },
+        {
+            "tag": "MiHorariodeclases",
+            "patterns": [
+                "¿Dónde encuentro mi horario de clases?",
+                "¿Cómo hago para ver mi horario de clases?",
+                "No sé cuál es mi horario de clases, ¿me puedes ayudar?",
+                "¿Dónde busco mi horario de clases?",
+                "¿Cómo accedo a mi horario de clases?",
+                "Ayudame a encontrar mi horario de clases",
+                "Como busco mi horario de clases",
+                "Necesito encontrar mi horario de clases",
+                "No se cual es mi horario, profe"
+            ],
+            "responses": [
+                "Para conocer tu horario de clases, debes acceder a la plataforma mi UPC, ya sea a través de la página web o la app. En la sección de 'Cursos y Horarios' podrás visualizar tu programación académica.",
+                "El horario de clases se encuentra disponible en la plataforma miUPC. Accede a ella desde la página web o la app, y busca la sección de 'Cursos y Horarios' para ver tu programación académica."
+            ]
+        },
+        {
+            "tag": "MaximoDeFaltas",
+            "patterns": [
+                "¿Cuántas veces puedo faltar a una clase?",
+                "Oye, ¿cuál es el límite de faltas en un curso?",
+                "¿Sabes cuántas faltas puedo tener antes de reprobar?",
+                "¿Cuál es el porcentaje de faltas permitidas en un curso?",
+                "¿Me puedes decir cuántas clases puedo faltar?"
+            ],
+            "responses": [
+                "Según el reglamento de estudios, los estudiantes no pueden faltar a más del 25% de las clases de un curso. Si superan este límite, se les asignará una calificación de 0 puntos en la evaluación final.",
+                "El reglamento establece que el máximo de faltas permitidas en un curso es del 25%. Superar este porcentaje resulta en una calificación de 0 puntos en la evaluación final."
+            ]
+        },
+        {
+            "tag": "FormatoDeClases",
+            "patterns": [
+                "Cuantos formato de clases hay en upc?",
+                "Como es el formato de clases en upc?",
+                "¿Sabes si los cursos son en línea o presenciales?",
+                "¿Puedo escoger entre cursos virtuales o presenciales?",
+                "Quiero saber si hay cursos en formato virtual o presencial.",
+                "¿Cómo sé si un curso es virtual o presencial?",
+                "¿Dónde puedo averiguar si mi curso es en línea o en el campus?"
+            ],
+            "responses": [
+                "La modalidad de los cursos puede variar según la carrera y el semestre. Te recomiendo consultar la página web oficial de la UPC o revisar tu horario en la plataforma miUPC para verificar si tus cursos son presenciales o virtuales.",
+                "Los cursos pueden ser presenciales o virtuales dependiendo de la oferta académica y la modalidad de tu carrera. Para obtener esta información, te sugiero revisar la página web de la UPC o consultar tu horario en miUPC."
+            ]
+        },
+        {
+            "tag": "ComoMatricularse",
+            "patterns": [
+                "Como me matriculo?",
+                "Como me matriculo en upc?",
+                "¿Cómo hago para matricularme en mis cursos?",
+                "Oye, ¿qué pasos debo seguir para la matrícula?",
+                "Estoy un poco perdido, ¿me puedes explicar cómo matricularme?",
+                "¿Dónde y cuándo me puedo matricular en mis clases?",
+                "¿Qué tengo que hacer para inscribirme en mis cursos?"
+            ],
+            "responses": [
+                "El proceso de matrícula implica verificar tu turno de matrícula, que recibirás a través de correo electrónico y mensaje de texto. Luego, ingresa al portal Matrícula UPC y selecciona los cursos adecuados para tu programa académico.",
+                "El proceso de matrícula implica verificar tu turno de matrícula, que recibirás a través de correo electrónico y mensaje de texto. Luego, ingresa al portal Matrícula UPC y selecciona los cursos adecuados para tu programa académico."
+            ]
+        },
+        {
+            "tag": "TurnoDeMatricula",
+            "patterns": [
+                "Como es mi turno de matricula",
+                "Como encuentro mi turno de matricula?",
+                "¿Cuándo me toca matricularme?",
+                "No sé cuándo es mi turno de matrícula, ¿me puedes ayudar",
+                "¿Puedes decirme la fecha y hora de mi matrícula?",
+                " ¿Cómo averiguo cuándo es mi turno de matrícula?",
+                "¿Dónde encuentro la información sobre mi turno de matrícula?"
+            ],
+            "responses": [
+                "Para saber cuándo es tu turno de matrícula, debes estar atento a tu correo UPC y a los mensajes en tu número de teléfono. Te enviarán la fecha y hora en que podrás inscribirte en tus cursos. ¡No dejes de revisarlos!",
+                "La información sobre tu turno de matrícula te llegará por correo electrónico y mensaje de texto. Asegúrate de estar pendiente de estos canales para conocer la fecha y hora de tu matrícula."
+            ]
+        },
+        {
+            "tag": "ConceptoAulaVirtual",
+            "patterns": [
+                "Como funciona el aula virtual?",
+                "Que es el aula virtual?",
+                "¿Qué es el aula virtual de la UPC?",
+                "No entiendo para qué sirve el aula virtual, ¿me explicas?",
+                "¿Cómo puedo acceder al aula virtual?",
+                "¿Dónde encuentro el material de mis cursos en el aula virtual?",
+                "¿Qué puedo hacer en el aula virtual de mi curso?",
+                "¿Es obligatorio usar el aula virtual?",
+                "¿Cómo reviso mis calificaciones en el aula virtual?",
+                "¿Qué diferencia hay entre el aula virtual y la intranet UPC?"
+            ],
+            "responses": [
+                "El aula virtual, o Blackboard, es donde se realiza la enseñanza en línea. Puedes compartir material con tus alumnos, tomar exámenes y dar clases virtuales. Accede desde la página web mi UPC con tu correo UPC y contraseña.",
+                "El aula virtual, también conocida como Blackboard, es donde se encuentran los recursos de tus cursos. Puedes rendir exámenes en línea, ver material de clases y participar en actividades virtuales. Accede desde la página web mi UPC con tu correo UPC y contraseña. "
+            ]
+        },
+        {
+            "tag": "AccesoAulaVirtual",
+            "patterns": [
+                "¿Cómo ingreso al aula virtual de la UPC?",
+                "No sé cómo acceder al aula virtual, ¿me puedes ayudar?",
+                "¿Dónde encuentro el enlace para entrar al aula virtual?",
+                "¿Cuál es la dirección web para el aula virtual?",
+                "¿Cómo inicio sesión en el aula virtual?",
+                "¿Necesito alguna contraseña especial para entrar al aula virtual?",
+                "¿Dónde encuentro mis cursos en el aula virtual?",
+                "¿Cómo reviso mis calificaciones en el aula virtual?"
+            ],
+            "responses": [
+                "Acceder al aula virtual de la UPC es sencillo. Desde la página web mi UPC, selecciona 'Alumnos' y elige 'Aula Virtual'. Inicia sesión con tu correo UPC y contraseña, y podrás ver tus asignaturas y recursos.",
+                "Para ingresar al aula virtual, dirígete a la página web mi UPC, ve a 'Alumnos' y selecciona 'Aula Virtual'. Utiliza tu correo UPC y contraseña para iniciar sesión. Desde allí, podrás acceder a tus asignaturas y material."
+            ]
+        },
+        {
+            "tag": "EvaluacionesEnLinea",
+            "patterns": [
+                "Como funcionan las evaluaciones en linea?",
+                "¿Dónde encuentro las evaluaciones virtuales?",
+                "¿Cómo accedo a las pruebas en el aula virtual?",
+                "¿Dónde están los exámenes en línea?",
+                "¿Cómo encuentro las evaluaciones de mis cursos en el aula virtual?",
+                "No sé dónde están las pruebas, ¿me puedes decir?",
+                "¿Dónde puedo ver mis exámenes virtuales?",
+                "¿Cómo hago para rendir las evaluaciones en línea?"
+            ],
+            "responses": [
+                "Las evaluaciones virtuales se encuentran en el aula virtual de cada curso. Los estudiantes pueden acceder a ellas ingresando al aula virtual desde la página web mi UPC, luego seleccionando el curso y buscando la sección de 'Evaluaciones' o 'Tareas'. Los detalles específicos serán proporcionados por el profesor del curso.",
+                "Para acceder a las evaluaciones virtuales, los estudiantes deben ir al aula virtual del curso desde la página web mi UPC. Dentro del aula virtual, podrán encontrar las evaluaciones y tareas asignadas. Cada profesor proporcionará detalles adicionales sobre fechas y requisitos."
+            ]
+        },
+        {
+            "tag": "ComoAprobarCurso",
+            "patterns": [
+                "Como se aprueba un curso?",
+                "Como paso un curso?",
+                "¿Cómo hago para aprobar un curso?",
+                "Como apruebo un curso?",
+                "¿Qué necesito para pasar un curso?",
+                "¿Cuál es la nota mínima para aprobar?",
+                "¿Puedo aprobar si mi promedio es 12.5?",
+                "¿Cómo calcular mi promedio para aprobar?",
+                "¿Qué puntaje necesito para pasar mis materias?"
+            ],
+            "responses": [
+                "Para aprobar un curso, los estudiantes deben alcanzar un promedio mínimo de 13 puntos. Si obtienen 12.5, se redondeará a 13 a su favor. Esto resalta la importancia de estudiar y esforzarse en cada evaluación. Recuerda que el aula virtual es una herramienta útil para acceder a material de estudio y seguimiento académico.",
+                "El requisito mínimo para aprobar un curso es obtener un promedio de 13. Si un estudiante obtiene 12.5, se redondeará a 13 a su favor. Los detalles sobre las evaluaciones y cómo mejorar tu rendimiento suelen proporcionarse en el aula virtual. ¡No dudes en buscar recursos adicionales y consultar!"
+            ]
+        },
+        {
+            "tag": "EvaluacionesCurso",
+            "patterns": [
+                "Cuantas evaluaciones habra en el curso?",
+                "Cuantos examenes hay?",
+                "Cuando examenes hay en el curso?",
+                "¿Cuántas evaluaciones tengo en mi curso?",
+                "¿Cuántos exámenes tenemos en esta materia?",
+                "¿Dónde puedo encontrar información sobre las evaluaciones en mi curso?",
+                "¿Hay exámenes o trabajos en este curso?",
+                "¿Cuál es la estructura de evaluación para esta materia?"
+            ],
+            "responses": [
+                "En el silabus del curso, que se encuentra en la sección de información general, puedes encontrar la información sobre la cantidad y fechas de las evaluaciones del curso. Cada profesor puede estructurar sus evaluaciones de manera diferente, así que te recomiendo revisar ese documento. Si tienes alguna pregunta específica, no dudes en contactarme.",
+                "Las evaluaciones en este curso se describen en detalle en el silabus, ubicado en la sección de información general del curso. Allí encontrarás la cantidad de exámenes y trabajos, así como sus fechas. Si tienes alguna duda adicional, no dudes en preguntarme. ¡Estoy aquí para ayudarte en tu proceso de aprendizaje!"
+            ]
+        },
+        {
+            "tag": "EvaluacionesParcialesFinales",
+            "patterns": [
+                "Como funcionan las evaluaciones finales?",
+                "Cuando son los examenes parciales y finales?",
+                "¿Cuándo son las evaluaciones parciales de este semestre?",
+                "¿En qué semanas se realizan los exámenes parciales?",
+                "¿Cuándo son los exámenes finales?",
+                "¿Puedes decirme las fechas de las pruebas finales?",
+                "¿En qué semana tengo los exámenes de mi curso?"
+            ],
+            "responses": [
+                "Por lo general, las evaluaciones parciales se llevan a cabo en la semana 8 de cada ciclo académico, y los exámenes finales en la semana 16. Sin embargo, la fecha exacta de cada evaluación será anunciada con suficiente antelación, generalmente una semana antes del examen. Puedes encontrar más detalles en la sección 'rol de exámenes' de la intranet. Si tienes alguna pregunta específica sobre las fechas, no dudes en contactarme.",
+                "Los exámenes parciales están programados para la semana 8 del ciclo académico y los exámenes finales para la semana 16. Para obtener detalles precisos, consulta la sección 'rol de exámenes' en la intranet. Si tienes más preguntas, no dudes en contactarme. ¡Buena suerte en tus estudios!"
+            ]
+        },
+        {
+            "tag": "TramiteSubsanacion",
+            "patterns": [
+                "¿Qué es el trámite de subsanación?",
+                "No rendí una evaluación, ¿puedo hacer algo al respecto?",
+                "Me perdí una práctica, ¿cómo puedo recuperarla?",
+                "Quiero recuperar una evaluación que me faltó, ¿qué debo hacer?",
+                " ¿Cuál es el proceso para subsanar una evaluación no rendida?"
+            ],
+            "responses": [
+                "El trámite de subsanación te brinda la oportunidad de recuperar una evaluación que no hayas rendido. Esto se aplica a prácticas calificadas o evaluaciones parciales. Importante recordar que solo puedes realizar un trámite de subsanación o recuperación por asignatura, no ambos. Para comenzar, ingresa a Mi UPC y elige 'Trámites'. Luego, sigue las instrucciones en 'Recuperación/Subsanación de evaluaciones no rendidas'. Espero que esta información te sea útil.",
+                "La subsanación es un proceso que te permite recuperar una evaluación que no hayas rendido. Esto aplica a prácticas calificadas o evaluaciones parciales. Recuerda que solo puedes realizar un trámite de subsanación o recuperación por asignatura, no ambos. Si necesitas realizar este trámite, visita Mi UPC y sigue las instrucciones en 'Recuperación/Subsanación de evaluaciones no rendidas'. La justicia académica es fundamental"
+            ]
+        },
+        {
+            "tag": "TramitesGenerales",
+            "patterns": [
+                "Como realizo mis tramites en upc?",
+                "Como hago tramites en upc?",
+                "Quiero realizar un trámite, ¿qué debo hacer?",
+                " Necesito hacer un trámite en la universidad, ¿me puedes ayudar?",
+                " ¿Dónde encuentro información sobre cómo hacer trámites en la UPC?",
+                "¿Cuáles son los pasos para realizar un trámite en la universidad?"
+            ],
+            "responses": [
+                "Realizar trámites en la UPC es un proceso que puede variar según la naturaleza del trámite. Te recomiendo que consultes el tutorial completo sobre cómo hacerlos en esta página: https://www.upc.edu.pe/servicios/tutoriales-de-tramites/. Allí encontrarás instrucciones detalladas para cada situación. ¡Espero que esta información te ayude! ",
+                "Hacer trámites en la UPC puede ser un proceso variado. Te sugiero revisar el tutorial completo sobre cómo hacerlos en esta página: https://www.upc.edu.pe/servicios/tutoriales-de-tramites/. Ahí encontrarás guías detalladas para cada trámite. ¡Espero que esta información te sea útil!"
+            ]
+        },
+        {
+            "tag": "TramiteRecuperaciónEvaluaciones",
+            "patterns": [
+                "¿Cómo puedo hacer el trámite de recuperación de evaluaciones?",
+                "Necesito recuperar una evaluación final que no rendí, ¿cómo se hace?",
+                "Quiero saber cómo realizar el trámite para recuperar una práctica calificada sin evaluación final.",
+                "¿Dónde encuentro información sobre el trámite de recuperación de evaluaciones?",
+                "¿Cuáles son los pasos para hacer el trámite de recuperación de evaluaciones?"
+            ],
+            "responses": [
+                "El trámite de recuperación de evaluaciones sigue el mismo proceso que la subsanación. Para ello, ingresa a MI UPC, selecciona Trámites, luego Recuperación/Subsanación de evaluaciones no rendidas. Sigue los pasos que se indican en pantalla y completa la solicitud. ¡Buena suerte en tu proceso de recuperación!",
+                "Para recuperar una evaluación final no rendida o una práctica calificada sin evaluación final, sigue el procedimiento de subsanación. Accede a MI UPC, elige Trámites y luego Recuperación/Subsanación de evaluaciones no rendidas. Sigue las instrucciones en pantalla para completar tu solicitud. ¡Éxito en tu recuperación!"
+            ]
+        },
+        {
+            "tag": "EncontrarBiblioteca",
+            "patterns": [
+                "Como puedo encontrar la biblioteca?",
+                "Donde esta la biblioteca?",
+                "Como se llega a la biblioteca",
+                "Cual es la ruta a la biblioteca?",
+                "La biblioteca donde esta?",
+                "Donde encuentra la biblioteca",
+                "Quiero ir a la biblioteca",
+                "Ayudame a encontrar la biblioteca"
+            ],
+            "responses": [
+                "El acceso a la biblioteca se encuentra disponible a través del uso del mapa. Le recomiendo consultar la leyenda detallada del mapa para orientarse con éxito. Le deseo buena fortuna en su búsqueda, estimado estudiante.",
+                "Es fundamental utilizar el mapa para localizar la biblioteca. Asegúrese de consultar la leyenda del mapa, ya que le proporcionará valiosa información para encontrar su destino. Le deseo mucho éxito en su búsqueda, querido estudiante.",
+                "Apreciado estudiante, la biblioteca se encuentra accesible a través del uso del mapa. No olvide consultar la leyenda que acompaña el mapa, ya que proporciona claves importantes para su ubicación. Le envío mis mejores deseos en su búsqueda"
+            ]
+        },
+        {
+            "tag": "ExistenciaBiblioteca",
+            "patterns": [
+                "Hay una biblioteca?",
+                "La upc tiene biblioteca?",
+                "Tenemos biblioteca",
+                "Disculpe, hay un biblioteca"
+            ],
+            "responses": [
+                "Apreciado alumno, es correcto. En nuestra institución disponemos de una biblioteca, cuya ubicación podrás identificar mediante el mapa que se te ha proporcionado",
+                "En nuestra institución, contamos con una biblioteca que podrás encontrar utilizando el mapa proporcionado"
+            ]
+        },
+        {
+            "tag": "EncontrarLibro",
+            "patterns": [
+                "Donde puedo conseguir un libro?",
+                "Necesito un libro",
+                "Como encuentro un libro",
+                "Estoy buscando un libro",
+                "Donde encuentro libros, profesor?",
+                "Como consigo un libro?",
+                "Donde estan los libros?"
+            ],
+            "responses": [
+                "Apreciado alumno, le informo que puede obtener un libro en la biblioteca del campus",
+                "Estimado alumno, le comunico que la biblioteca del campus está a su disposición para que pueda conseguir un libro según sus necesidades"
+            ]
+        },
+        {
+            "tag": "ExistenciaLibros",
+            "patterns": [
+                "Hay libros, profesor?",
+                "La upc cuenta con libros?",
+                "podria conseguir un libro?",
+                "La upc tiene libros"
+            ],
+            "responses": [
+                "Así es, apreciado alumno. Confirmo que la UPC tiene libros que se ofrezcen a los estudiantes en la biblioteca",
+                "Correcto, querido estudiante. Informo que la institución dispone de libros a disposición de los alumnos en la biblioteca"
+            ]
+        },
+        {
+            "tag": "PrestarLibros",
+            "patterns": [
+                "Se pueden prestar libros?",
+                "La upc permite prestar libros?",
+                "Es posible prestar un libro?",
+                "Puedo pedir prestado un libro, profe?"
+            ],
+            "responses": [
+                "Por supuesto, estimado alumno. Le informo que tiene la posibilidad de solicitar en préstamo un libro en la biblioteca del campus",
+                "Correcto, querido estudiante. Me complace indicarle que puede solicitar prestado un libro en la biblioteca del campus"
+            ]
+        },
+        {
+            "tag": "ComoPrestarLibros",
+            "patterns": [
+                "Como pido un libro de la biblioteca",
+                "Como se prestan los libros en upc",
+                "Como es el proceso de prestar un libro",
+                "La upc tiene un proceso para prestar libros?",
+                "En la biblioteca como consigo un libro?"
+            ],
+            "responses": [
+                "Estimado alumno, el proceso es sencillo. Puede dirigirse a la biblioteca y utilizar las máquinas para registrar los libros que solicitará en préstamo. Este registro generará un ticket que validará su préstamo. Además, puede obtener información adicional consultando al personal de la biblioteca."
+            ]
+        },
+        {
+            "tag": "CuantosLibrosPrestados",
+            "patterns": [
+                "Se pueden prestar varios libros?",
+                "La biblioteca, permite prestar varios libros?",
+                "Cuantos libros puedo pedir prestado?",
+                "profe, cuantos libros se pueden pedir prestados?"
+            ],
+            "responses": [
+                "Sí, estimado estudiante, tiene la posibilidad de solicitar en préstamo varios libros simultáneamente. Para hacerlo, solo necesita consultar en la biblioteca, donde le proporcionarán un ticket",
+                "Así es, distinguido alumno. Me complace comunicarle que puede pedir prestados varios libros a la vez. Basta con que se acerque a la biblioteca y solicite un ticket"
+            ]
+        },
+        {
+            "tag": "CantidadLibros",
+            "patterns": [
+                "Y cuantos libros hay?",
+                "cuantos libros encontrare en la upc",
+                "Como cuantos libros hay?"
+            ],
+            "responses": [
+                "Desconozco la cifra exacta de libros, querido alumno. No obstante, le informo que en la biblioteca hallará una amplia colección",
+                "No puedo proporcionarle el número exacto de libros, distinguido alumno. No obstante, tenga la certeza de que en la biblioteca encontrará una extensa colección"
+            ]
+        },
+        {
+            "tag": "LibrosDigitalesExistencia",
+            "patterns": [
+                "La UPC tiene libros digitales?",
+                "Contamos con libros digitales",
+                "Hay libros digitales en la biblioteca?"
+            ],
+            "responses": [
+                "Sí, estimado estudiante. Quisiera informarle que la UPC dispone de recursos digitales que puede consultar a través de la página web de la biblioteca",
+                "Correcto, querido alumno. Es importante destacar que la universidad cuenta con recursos digitales que puede explorar mediante la página web de la biblioteca"
+            ]
+        },
+        {
+            "tag": "EncontrarLibrosDigitales",
+            "patterns": [
+                "Donde encuentro libros digitales",
+                "Como encuentro libros digitales de la biblioteca",
+                "Como consigo libros digitales?",
+                "Como encontrar libros digitales"
+            ],
+            "responses": [
+                "Estimado alumno, le informo que puede acceder a la colección de libros digitales de la UPC a través de la página web de recursos de investigación",
+                "Correcto, querido estudiante. Es relevante destacar que tiene la posibilidad de encontrar la colección de libros digitales de la UPC utilizando la página web de recursos de investigación"
+            ]
+        },
+        {
+            "tag": "Agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Fue de ayuda",
+                "Se lo agradezco",
+                "Muchas gracias, profesor",
+                "Gracias, profe"
+            ],
+            "responses": [
+                "No hay de qué, estimado alumno. Me complace haber sido de ayuda.",
+                "De nada, apreciado estudiante. Estoy contento de haberle brindado asistencia."
+            ]
+        }
+    ]
+}

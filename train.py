@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from model import NeuralNet
 
-with open('intents.json', 'r') as f:
+with open('intents_administrator.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -96,7 +96,7 @@ data = {
     "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "data_admin.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')

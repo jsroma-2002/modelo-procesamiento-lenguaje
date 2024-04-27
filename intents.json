@@ -25,11 +25,117 @@
       ]
     },
     {
+      "tag": "FechasImportantes",
+      "patterns": [
+        "Cuales son las fechas que deberia conocer?",
+        "Fechas mas importantes del ciclo academico",
+        "Fechas más importantes del ciclo academico?"
+      ],
+      "responses": [
+        "Estimado alumno las fechas más importantes varian dependiendo de cada ciclo academicos. En el ciclo 2024 1, por ejemplo las fechas más importantes para los estudiantes fueron El inicio de clases el 18 de Marzo, La semana de examenes parciales del 06 al 11 Mayo, el 29 de junio ultimo dia de clases y la semana de examenes finales del 01 al 06 de Julio."
+      ]
+    },
+    {
+      "tag": "FechaInicioClases",
+      "patterns": [
+        "Cuando es el inicio de clases",
+        "Cual es la fecha del inicio de clases"
+      ],
+      "responses": [
+        "El inicio de clases varia dependediendo del ciclo academico. En el ciclo 2024-1, por ejemplo el inicio de clases es el 18 de Marzo"
+      ]
+    },
+    {
+      "tag": "FechaExamenesParciales",
+      "patterns": [
+        "Cuando empiezan los examenes parciales",
+        "Cuando son los examenes parciales",
+        "Hay semana de parciales?"
+      ],
+      "responses": [
+        "El inicio de la semana de parciales varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo la semana de examenes parciales es del 06 al 11 Mayo"
+      ]
+    },
+    {
+      "tag": "FechaUltimoDiaClases",
+      "patterns": [
+        "Cuando terminan las clases",
+        "Cuando es el ultimo dia de clases",
+        "Fin de clases"
+      ],
+      "responses": [
+        "El termino de las clases varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo el 29 de junio es ultimo dia de clases. Recuerda que la siguiente semana es la semana de examenes finales."
+      ]
+    },
+    {
+      "tag": "FechaExamenesFinales",
+      "patterns": [
+        "Cuando empiezan los examenes finales",
+        "Cuando son los examenes finales",
+        "Hay semana de finales?"
+      ],
+      "responses": [
+        "El inicio de la semana de finales varia dependediendo del ciclo academico. En el ciclo 2024 1, por ejemplo la semana de examenes parciales es del 01 al 06 de Julio."
+      ]
+    },
+    {
+      "tag": "InformacionEstudiante",
+      "patterns": [
+        "Cuales mi información importante?",
+        "Mi informacion importante"
+      ],
+      "responses": [
+        "Tu información más importante es tu codigo de usuario UPC y la contraseña de tu cuenta. Si eres nuevo ingresante esta información fue enviada 48 horas después de tu incorporación al correo personal que indicaste en la Oficina de Admisión."
+      ]
+    },
+    {
+      "tag": "AsistirPrimerDiaClases",
+      "patterns": [
+        "Cómo asisto a mi primer dia de clases?",
+        "Como asisto a mi primer dia de clases?"
+      ],
+      "responses": [
+        "Estimado alumno, para ingresar a tu primer dia de clases debes tener en cuenta tu modalidad de estudios. En el caso de un curso a distancia, la clase dictará por el aula virtual. En el caso de un curso presencial, deberás acercarte al campus portando tu documento de identidad."
+      ]
+    },
+    {
+      "tag": "PlanEstudiosGeneral",
+      "patterns": [
+        "Cual es mi plan de estudios?",
+        "Que es el plan de estudios?"
+      ],
+      "responses": [
+        "El plan de estudios es la planificación de tu formación como profesional en la UPC. Este se mide por créditos siendo 1 credito la unidad de medida de los cursos que vas a estudiar. En este plan de estudios, ademas, los cursos pueden ser oblogatorios o electivos."
+      ]
+    },
+    {
+      "tag": "ComoGraduarse",
+      "patterns": [
+        "Que necesito para graduarme",
+        "Como termino mis estudios",
+        "Como me graduo de la upc"
+      ],
+      "responses": [
+        "Para graduarte necesitas cumplir con todos tus cursos obligatorios y electivos, obtener tus créditos extra académicos y realizar tus prácticas, y cumplir con el nivel de ingles requerido."
+      ]
+    },
+    {
+      "tag": "IngresarUPC",
+      "patterns": [
+        "Como ingreso a la UPC",
+        "Como entro en el campus de UPC?"
+      ],
+      "responses": [
+        "Estimado alumno, deberás acercarte al campus portando tu documento de identidad."
+      ]
+    },
+    {
       "tag": "ConceptocorreoUPC",
       "patterns": [
         "Oye, ¿qué es ese correo UPC que mencionan?",
         "¡Hola! Me dijeron algo del correo UPC, ¿me puedes explicar?",
-        "Disculpa mi ignorancia, pero ¿qué es ese correo UPC?"
+        "Disculpa mi ignorancia, pero ¿qué es ese correo UPC?",
+        "Cual es el correo UPC?"
       ],
       "responses": [
         "El correo UPC es la dirección de correo electrónico oficial de la universidad. Los estudiantes tienen una dirección con el formato 'u[código]@upc.edu.pe'. Es el medio formal para comunicarse con profesores y otros miembros de la comunidad universitaria."
@@ -428,6 +534,19 @@
       "responses": [
         "Estimado alumno, le informo que puede acceder a la colección de libros digitales de la UPC a través de la página web de recursos de investigación",
         "Correcto, querido estudiante. Es relevante destacar que tiene la posibilidad de encontrar la colección de libros digitales de la UPC utilizando la página web de recursos de investigación"
+      ]
+    },
+    {
+      "tag": "IngresarMiUPC",
+      "patterns": [
+        "Como ingreso a miUPC?",
+        "Hay alguna forma de entrar a miUpc",
+        "MIUPC es accesible, desde donde?",
+        "Cual es la pagina de miUpc",
+        "Cual es la dirección web de miUpc"
+      ],
+      "responses": [
+        "Acceder a mi UPC es sencillo. puedes utilizar esta URL para acceder directamente: 'https://mi.upc.edu.pe/'. Inicia sesión con tu correo UPC y contraseña asi podras ingresar, estimado."
       ]
     },
     {
